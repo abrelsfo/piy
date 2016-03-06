@@ -14,3 +14,4 @@ module.exports = function () {
 };
 
 module.exports.print = console.log;
+module.exports.pop = require('./src/pop.js');

@@ -13,6 +13,10 @@ test('valid args', t => {
   */
 });
 
-test('title', t => {
-  t.ok(piy.print('myArg1'));
+test('print', t => {
+  t.pass();
+});
+
+test('pop', t => {
+  t.is(piy.pop([1, 2, 3], 1), [1, 3]);
 });
